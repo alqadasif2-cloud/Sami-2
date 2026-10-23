@@ -24,14 +24,6 @@ android {
         }
     }
 
-    splits {
-        abi {
-            isEnable = false
-        }
-        density {
-            isEnable = false
-        }
-    }
 
     signingConfigs {
         create("samiUniversal") {
